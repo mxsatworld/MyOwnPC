@@ -7,50 +7,87 @@
       <elementName>PFET</elementName>
       <elementAttributes>
         <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
+          <string>Label</string>
+          <string>A</string>
         </entry>
       </elementAttributes>
       <pos x="360" y="240"/>
     </visualElement>
     <visualElement>
-      <elementName>In</elementName>
+      <elementName>Out</elementName>
       <elementAttributes>
         <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
+          <string>Label</string>
+          <string>OUTPUT NOT</string>
         </entry>
       </elementAttributes>
-      <pos x="360" y="220"/>
+      <pos x="460" y="240"/>
     </visualElement>
     <visualElement>
-      <elementName>VDD</elementName>
+      <elementName>DiodeForward</elementName>
       <elementAttributes>
         <entry>
           <string>rotation</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="300" y="260"/>
+      <pos x="400" y="240"/>
     </visualElement>
     <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="380" y="260"/>
+      <elementName>PullDown</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="240"/>
     </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="300" y="260"/>
-      <p2 x="320" y="260"/>
+      <p1 x="380" y="240"/>
+      <p2 x="400" y="240"/>
     </wire>
     <wire>
-      <p1 x="360" y="260"/>
-      <p2 x="380" y="260"/>
+      <p1 x="420" y="240"/>
+      <p2 x="440" y="240"/>
     </wire>
     <wire>
-      <p1 x="360" y="220"/>
+      <p1 x="340" y="240"/>
       <p2 x="360" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="240"/>
+      <p2 x="460" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="220"/>
+      <p2 x="440" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="280"/>
+      <p2 x="380" y="300"/>
     </wire>
   </wires>
   <measurementOrdering/>

@@ -11,11 +11,16 @@
           <string>A</string>
         </entry>
       </elementAttributes>
-      <pos x="20" y="60"/>
+      <pos x="40" y="60"/>
     </visualElement>
     <visualElement>
       <elementName>PFET</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A</string>
+        </entry>
+      </elementAttributes>
       <pos x="80" y="60"/>
     </visualElement>
     <visualElement>
@@ -26,17 +31,27 @@
           <string>B</string>
         </entry>
       </elementAttributes>
-      <pos x="180" y="60"/>
+      <pos x="40" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>PFET</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B</string>
+        </entry>
+      </elementAttributes>
       <pos x="240" y="60"/>
     </visualElement>
     <visualElement>
       <elementName>NFET</elementName>
-      <elementAttributes/>
-      <pos x="160" y="120"/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B</string>
+        </entry>
+      </elementAttributes>
+      <pos x="220" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>VDD</elementName>
@@ -47,49 +62,60 @@
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
           <string>Label</string>
-          <string>OUTPUT</string>
+          <string>OUTPUT XOR</string>
         </entry>
       </elementAttributes>
-      <pos x="220" y="140"/>
+      <pos x="340" y="120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DiodeForward</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="280" y="120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes/>
+      <pos x="320" y="140"/>
     </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="140" y="160"/>
-      <p2 x="160" y="160"/>
+      <p1 x="200" y="160"/>
+      <p2 x="220" y="160"/>
     </wire>
     <wire>
-      <p1 x="140" y="100"/>
-      <p2 x="200" y="100"/>
-    </wire>
-    <wire>
-      <p1 x="40" y="20"/>
+      <p1 x="60" y="20"/>
       <p2 x="280" y="20"/>
     </wire>
     <wire>
       <p1 x="100" y="180"/>
-      <p2 x="180" y="180"/>
+      <p2 x="240" y="180"/>
     </wire>
     <wire>
-      <p1 x="180" y="120"/>
-      <p2 x="220" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="220" y="120"/>
+      <p1 x="240" y="120"/>
       <p2 x="260" y="120"/>
     </wire>
     <wire>
-      <p1 x="20" y="60"/>
-      <p2 x="40" y="60"/>
+      <p1 x="300" y="120"/>
+      <p2 x="320" y="120"/>
     </wire>
     <wire>
-      <p1 x="180" y="60"/>
-      <p2 x="200" y="60"/>
+      <p1 x="40" y="120"/>
+      <p2 x="200" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="120"/>
+      <p2 x="280" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="120"/>
+      <p2 x="340" y="120"/>
     </wire>
     <wire>
       <p1 x="260" y="60"/>
@@ -97,11 +123,23 @@
     </wire>
     <wire>
       <p1 x="40" y="60"/>
-      <p2 x="80" y="60"/>
+      <p2 x="60" y="60"/>
     </wire>
     <wire>
       <p1 x="200" y="60"/>
       <p2 x="240" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="60"/>
+      <p2 x="80" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="160"/>
+      <p2 x="240" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="120"/>
+      <p2 x="320" y="140"/>
     </wire>
     <wire>
       <p1 x="100" y="40"/>
@@ -116,28 +154,20 @@
       <p2 x="260" y="120"/>
     </wire>
     <wire>
-      <p1 x="180" y="160"/>
-      <p2 x="180" y="180"/>
-    </wire>
-    <wire>
-      <p1 x="40" y="20"/>
-      <p2 x="40" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="200" y="60"/>
-      <p2 x="200" y="100"/>
-    </wire>
-    <wire>
       <p1 x="280" y="20"/>
       <p2 x="280" y="60"/>
     </wire>
     <wire>
-      <p1 x="140" y="100"/>
-      <p2 x="140" y="160"/>
+      <p1 x="200" y="60"/>
+      <p2 x="200" y="120"/>
     </wire>
     <wire>
-      <p1 x="220" y="120"/>
-      <p2 x="220" y="140"/>
+      <p1 x="200" y="120"/>
+      <p2 x="200" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="20"/>
+      <p2 x="60" y="60"/>
     </wire>
   </wires>
   <measurementOrdering/>
